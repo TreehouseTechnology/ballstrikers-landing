@@ -13,8 +13,8 @@ Minimal scaffold for the Ballstrikers waitlist landing page with:
 
 1. `cp .env.example .env.local`
 2. Fill in all required values in `.env.local`
-3. `npm install`
-4. `npm run dev`
+3. `pnpm install`
+4. `pnpm dev`
 
 ## Notes for Board Setup
 
