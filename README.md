@@ -8,6 +8,7 @@ Minimal scaffold for the Ballstrikers waitlist landing page with:
 - Turnstile CAPTCHA verification hook
 - PostHog capture hooks (self-hosted compatible)
 - `.env.example` for required credentials
+- AWS Amplify + GitHub Actions CI/CD staging workflow
 
 ## Quick Start
 
@@ -26,3 +27,10 @@ Minimal scaffold for the Ballstrikers waitlist landing page with:
   - enable Turnstile analytics dashboard
   - log per-request risk metadata to a `bot_events` table (IP hash, UA hash, result, timestamp)
   - create a daily report on captcha failures and signup conversion by traffic source
+
+## Deployment
+
+- AWS Amplify + GitHub Actions setup guide:
+  - `docs/amplify-github-actions-cicd.md`
+- Workflow file:
+  - `.github/workflows/amplify-ci-cd.yml`
